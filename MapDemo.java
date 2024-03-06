@@ -11,7 +11,10 @@ class MapDemo{
 		}
 public static void main(String[] args){
 
+	long l=193873648754L;
 	double num2 = 10.5;
+	float f= l;
+	System.out.println("Float : "+f);
 	int num1 = 3;
 	char ch ='A';
 	boolean flag = true;
@@ -28,6 +31,8 @@ public static void main(String[] args){
 		myMap1.put(3,"pawan");
 		myMap1.put(4,"Ganesh");
 		myMap1.put(5,"Dinesh");
+
+		System.out.println(myMap1.get(6));
 
 		int hashcode1 = myMap1.get(1).hashCode();
 		int hashcode2 = myMap1.get(2).hashCode();

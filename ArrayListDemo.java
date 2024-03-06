@@ -6,7 +6,7 @@ class ArrayListDemo{
 	//int IntVal = va;			Cmpile time error
 
 	String[] arrr ={"Apple","Banana","Grapes"};
-	System.out.println("Character : "+arrr[0].charAt(3));
+	// System.out.println("Character : "+arrr[0].charAt(3));
 	int[][] arr1 = {{1,2},{2,3},{3,1}};
 	//System.out.println(arr1[1][2]+"_____________");
 
@@ -15,29 +15,47 @@ class ArrayListDemo{
 	arr[0] = 5;
 	arr[2] = 5;
 	arr[1] = 5;
-	for(int val: arr){
-		System.out.println(val);
-	}
+	// for(int val: arr){
+	// 	System.out.println(val);
+	// }
 
 	// Map<Integer,String> map = new HashMap<>();
 	// map.put(1,"Praasd");
 	// map.put(2,"ganesh");
+
+	List<String> list1 =Arrays.asList("hell","Aditya");
+	// System.out.println(list1);
+
+	// list1.add("Hello");
+	// list1.add("Amol");
+	// list1.add("pawan");
+
 		List <String> myList1 = new ArrayList<String>();
+
 		myList1.add("Hello");
 		myList1.add("Amol");
 		myList1.add("pawan");
 		myList1.add("Hellllo");
-		System.out.println("3rd Index Element is : "+myList1.get(3));
 
-		System.out.println("Size Before Delete: "+myList1.size());
+		//myList1.addAll(2,list1);
+
+		System.out.println(myList1.get(3));
+
+		myList1.set(3,"Updated");
+	//	System.out.println("3rd Index Element is : "+myList1.get(3));
+
+	//	System.out.println("Size Before Delete: "+myList1.size());
+
+	System.out.println("____________________");
 
 		Iterator<String> iterator  = myList1.iterator();
 		while(iterator.hasNext()){
-			if(iterator.next()=="Hello"){
-				iterator.remove();
-			}
+			// if(iterator.next()=="Hello"){
+			// 	iterator.remove();
+			// }
+			System.out.println(iterator.next());
 		}
-		System.out.println("Size After Delete: "+myList1.size());
+		// System.out.println("Size After Delete: "+myList1.size());
 
 // System.out.println(myList1);
 // myList1.add(5, "Neeraj");
@@ -55,8 +73,8 @@ class ArrayListDemo{
 
 		String str1 = "hello";
 		String str2 = new String("hello");
-		System.out.println(str1 == str2);
-		System.out.println("Equals Method  :"+str1.equals(str2));
+		//System.out.println(str1 == str2);
+		//System.out.println("Equals Method  :"+str1.equals(str2));
 		
 	}
 }
