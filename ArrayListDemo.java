@@ -24,6 +24,8 @@ class ArrayListDemo{
 	// map.put(2,"ganesh");
 
 	List<String> list1 =Arrays.asList("hell","Aditya");
+
+
 	// System.out.println(list1);
 
 	// list1.add("Hello");
@@ -36,7 +38,15 @@ class ArrayListDemo{
 		myList1.add("Amol");
 		myList1.add("pawan");
 		myList1.add("Hellllo");
+		myList1.add(2,"Second");
 
+
+	//	------------  Synchronize ArrayList  -----------------
+
+		List<String> syncList = Collections.synchronizedList(myList1);
+		synchronized(syncList){
+
+		}
 		//myList1.addAll(2,list1);
 
 		System.out.println(myList1.get(3));
