@@ -33,7 +33,7 @@ class StudentName implements Comparator<Student>{
 	return s1.name.compareTo(s2.name);
 	}
 }
-class ComparatorDemo{
+public class ComparatorDemo{
 	
 	static void display(Collection<?> c){
 	if(c!=null){
@@ -52,7 +52,7 @@ class ComparatorDemo{
 	stud.add(s1);
 	stud.add(s2);
 		stud.add(new Student(1,"Geeta",20));
-		stud.add(new Student(5,"Joseph",24));
+		stud.add(new Student(5,"Joseph",11));
 		stud.add(new Student(2,"Rajesh",25));
 	
 	display(stud);
