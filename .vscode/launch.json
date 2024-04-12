@@ -6,6 +6,52 @@
     "configurations": [
         {
             "type": "java",
+            "name": "streamQuestions",
+            "request": "launch",
+            "mainClass": "streamQuestions",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "StreamApi",
+            "request": "launch",
+            "mainClass": "StreamApi",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
             "name": "Candles",
             "request": "launch",
             "mainClass": "Candles",
