@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fileRead",
+            "request": "launch",
+            "mainClass": "fileRead",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "maxOccurrance",
+            "request": "launch",
+            "mainClass": "maxOccurrance",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "brackets",
+            "request": "launch",
+            "mainClass": "brackets",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "studentAsc",
+            "request": "launch",
+            "mainClass": "studentAsc",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "exceptionDemo",
+            "request": "launch",
+            "mainClass": "exceptionDemo",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "UserDefinedUnCheckedEXceptionClassDemo",
+            "request": "launch",
+            "mainClass": "UserDefinedUnCheckedEXceptionClassDemo",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
             "name": "streamQuestions",
             "request": "launch",
             "mainClass": "streamQuestions",

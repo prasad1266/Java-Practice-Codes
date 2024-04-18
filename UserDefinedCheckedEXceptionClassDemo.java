@@ -16,7 +16,7 @@ class UserDefinedCheckedEXceptionClassDemo{
 			throw new MyException("MyException Here: ");
 			}
 		catch(MyException e){
-				System.out.println("MyException Caught here");
+			//	System.out.println("MyException Caught here");
 				System.out.println(e.getMessage());
 			}
 
