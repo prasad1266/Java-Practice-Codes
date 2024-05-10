@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color: blue;
+    }
+</style>
+<body>
+    <h1>Hello Boy</h1>
+    <button id="btn" onclick="addNote()">CLick me</button>
+ <div id="parentElementId" style="color: blue;"></div>
+</body>
+<script>
+    const btn = document.getElementById('btn');
+
+    // btn.onclick() = function(){
+    //     alert("hello CLicked");
+    // }
+    var arr = [1,2,3,3,4,4,5];
+    var unique = arr.filter((item,index)=>arr.indexOf(item)===index);
+    console.log(unique);
+
+    let b= 10;
+    {
+        
+        let a=15;
+    }
+    //  a=16;
+    console.log("Hello this is A: "+a);
+    // const num = arr.map(function (num1){
+    //     num1+1;
+    // })
+    // console.log(num);
+
+    function myfun(){
+        alert("hello CLicked");
+
+        var val = "prasad";
+      
+        btn.style.background =  'red';
+    }
+
+
+    function addNote(){
+        var node = document.createTextNode("This is textNode");
+        var parentElement = document.getElementById("parentElementId");
+        parentElement.appendChild(node);
+    }
+    // addNote();
+     val = "prasad";
+    console.log("Hello this is val: "+val);
+
+    var student = {
+        college : 'jspm'
+    };
+    var stud1 = Object.create(student);
+    console.log(student);
+</script>
+</html>

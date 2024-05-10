@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "counting",
+            "request": "launch",
+            "mainClass": "counting",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "hashTable",
+            "request": "launch",
+            "mainClass": "hashTable",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
+            "name": "HAshMapDemo",
+            "request": "launch",
+            "mainClass": "HAshMapDemo",
+            "projectName": "java codes_db2d3662"
+        },
+        {
+            "type": "java",
             "name": "fileRead",
             "request": "launch",
             "mainClass": "fileRead",

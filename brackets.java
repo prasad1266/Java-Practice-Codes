@@ -6,8 +6,8 @@ public class brackets {
     }
     public static void main(String[] args) {
         String str = "3[a]4[b]5[c]";
-        String str2 = str;
-        
+        // String str2 = str;
+
         int length = str.length();
         String op = "";
         char[] arr = str.toCharArray();
